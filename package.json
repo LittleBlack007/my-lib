@@ -12,6 +12,7 @@
     "watch": "nodemon --delay 2000ms --ignore lib/ --ignor`e node_modules/ --watch packages/ -C -e vue,js,less --debug -x npm run async"
   },
   "dependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
